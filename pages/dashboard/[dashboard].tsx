@@ -3,7 +3,7 @@ import React from 'react'
 function dashboard() {
 
   return (
-    <div>dashboard</div>
+    <div className='bg-red-500'>dashboard</div>
   )
 }
 

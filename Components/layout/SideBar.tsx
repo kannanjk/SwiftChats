@@ -6,7 +6,7 @@ function SideBar() {
 
     return (
         <div className='hidden  md:block w-[7%]'>
-            <div className="h-full flex justify-center overflow-x-scroll no-scrollbar ">
+            <div className="h-full flex p-5 justify-center overflow-x-scroll no-scrollbar ">
                 <div className=" ">
                     {
                         sideBar.map((item: any, ind: number) => (
